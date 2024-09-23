@@ -4,23 +4,31 @@ body {
   background-color: #f0f8ff;
 }
 
+/* globals.css */
 header {
-  background-color: #001f3f;
-  color: white;
-  padding: 20px;
-  display: flex; /* Added for horizontal alignment */
-  justify-content: space-between; /* Space between elements */
-  align-items: center; /* Center vertically */
+  display: flex; /* Make it a flex container */
+  justify-content: space-around; /* Space items evenly */
+  align-items: center; /* Center items vertically */
+  background-color: #001f3f; /* Header background color */
+  color: white; /* Text color */
+  padding: 15px 20px; /* Padding for the header */
 }
 
-header nav {
-  margin-top: 0; /* Remove margin from nav */
+nav {
+  display: flex; /* Make the nav a flex container */
+  gap: 15px; /* Space between links */
 }
 
-header nav a {
-  margin: 0 15px;
-  color: white;
-  text-decoration: none;
+nav a {
+  color: white; /* Link text color */
+  text-decoration: none; /* Remove underline */
+  padding: 10px 15px; /* Padding around the links */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Background on hover */
 }
 
 footer {
