@@ -172,3 +172,62 @@ p {
   border-radius: 5px;
 }
 
+.studentsPage {
+  text-align: center;
+  padding: 50px;
+  background-color: #f4f4f4;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.role {
+  width: auto; /* Fit to text */
+  background-color: #0070f3;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+a {
+  display: block;
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #001f3f;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* Flowchart */
+.flowchart {
+  margin-top: 40px;
+}
+
+.flow-step {
+  background-color: #0070f3;
+  color: white;
+  padding: 15px;
+  margin: 10px auto; /* Centered */
+  border-radius: 5px;
+  width: fit-content; /* Fit to text */
+}
+
+.arrow {
+  font-size: 2rem;
+  margin: 0; /* No margin for arrows */
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .role {
+    width: auto; /* Fit to text */
+  }
+}

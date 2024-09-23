@@ -9,6 +9,7 @@ export default function Header() {
         <Link href="/">Home</Link>
         <Link href="/pilot">Pilot</Link>
         <Link href="/atc">ATC</Link>
+        <Link href="/learn">Learn</Link> {/* New link added */}
       </nav>
     </header>
   );
