@@ -1,3 +1,4 @@
+// pages/students.js
 import Link from 'next/link';
 import '../globals.css';
 
@@ -23,17 +24,24 @@ export default function Students() {
       {/* Flowchart */}
       <div className="flowchart">
         <h2>Communication Flowchart</h2>
-        <div className="flow-step">Pilot requests clearance</div>
-        <div className="arrow">↓</div>
-        <div className="flow-step">ATC gives clearance</div>
-        <div className="arrow">↓</div>
-        <div className="flow-step">ATC monitors in-flight and landing</div>
-        <div className="arrow">↓</div>
-        <div className="flow-step">Pilot confirms clearance and starts taxiing</div>
-        <div className="arrow">↓</div>
-        <div className="flow-step">Pilot lands and confirms</div>
-        <div className="arrow">↓</div>
-        <div className="flow-step">ATC confirms landing</div>
+
+        <div className="flow-container">
+          <div className="flow-step">Pilot requests clearance</div>
+          <div className="arrow">↓</div>
+          <div className="flow-step">ATC grants clearance</div>
+          <div className="arrow">↓</div>
+          <div className="flow-step">Pilot taxis to runway</div>
+          <div className="arrow">↓</div>
+          <div className="flow-step">Pilot takes off</div>
+          <div className="arrow">↓</div>
+          <div className="flow-step">ATC monitors flight</div>
+          <div className="arrow">↓</div>
+          <div className="flow-step">Pilot approaches for landing</div>
+          <div className="arrow">↓</div>
+          <div className="flow-step">ATC gives landing instructions</div>
+          <div className="arrow">↓</div>
+          <div className="flow-step">Pilot lands and confirms</div>
+        </div>
       </div>
 
       <Link href="/">Back to Home</Link>
