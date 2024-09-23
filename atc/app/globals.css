@@ -1,0 +1,47 @@
+/* globals.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.home {
+  text-align: center;
+  padding: 50px;
+}
+
+.links a {
+  display: block;
+  margin: 20px 0;
+  padding: 10px 20px;
+  background-color: #0070f3;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.page {
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  cursor: pointer;
+  background-color: #0070f3;
+  color: white;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.output {
+  margin-top: 20px;
+}
+
+.output h2 {
+  font-size: 1.5em;
+}
