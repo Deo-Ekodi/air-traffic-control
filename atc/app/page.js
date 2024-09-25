@@ -4,7 +4,7 @@ import './globals.css';
 
 export default function Home() {
   return (
-    <div className="home">
+    <div className="container">
       <h1>Welcome to the ATC and Pilot Simulation</h1>
 
       {/* Introduction section */}
@@ -36,13 +36,13 @@ export default function Home() {
       </section>
 
       {/* Fun Facts Section */}
-      <section className="fun-facts">
+      <section className="how-to-use">
         <h2>Did You Know?</h2>
-        <ul>
+        <ol>
           <li>There are over 100,000 flights globally each day.</li>
           <li>Air traffic controllers manage airspace across several sectors.</li>
           <li>Pilots rely on real-time instructions from ATC to avoid collisions.</li>
-        </ul>
+        </ol>
       </section>
 
       {/* Footer */}
